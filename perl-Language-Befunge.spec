@@ -5,7 +5,7 @@ Summary:	Language::Befunge perl module - a Befunge 98 interpreter
 Summary(pl):	Modu³ perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
 Version:	0.38
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
