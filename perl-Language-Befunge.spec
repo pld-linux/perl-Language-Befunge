@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Language
-%define	pnam	Befunge
+%define		pdir	Language
+%define		pnam	Befunge
 Summary:	Language::Befunge perl module - a Befunge 98 interpreter
 Summary(pl):	Modu³ perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
