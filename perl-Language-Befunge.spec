@@ -23,7 +23,7 @@ Language::Befunge is an interpreter of Befunge 98 topological
 language. This module implements the Funge-98 specifications on a 2D
 field (also called Befunge). In particular, be aware that this is not
 a Trefunge implementation (3D).
-		
+
 %description -l pl
 Language::Befunge to interpreter jêzyka topologicznego Befunge 98. Ten
 modu³ jest implementacj± specyfikacji Funge-98 dla przestrzeni 2D
