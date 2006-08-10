@@ -59,8 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Language/Befunge/*.pm
 %{_mandir}/man1/*
 %{_mandir}/man3/Language::Befunge.3pm*
-%{_mandir}/man3/Language::Befunge::[^l]*
+%{_mandir}/man3/Language::Befunge::[!l]*
 %dir %{_examplesdir}/%{name}-%{version}
 %{_examplesdir}/%{name}-%{version}/*pm
 %{_examplesdir}/%{name}-%{version}/*bf
-#%{_examplesdir}/%{name}-%{version}/lib/*pm
