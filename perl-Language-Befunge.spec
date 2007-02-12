@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	Befunge
 Summary:	Language::Befunge perl module - a Befunge 98 interpreter
-Summary(pl):	Modu³ perla Language::Befunge - interpreter Befunge 98
+Summary(pl.UTF-8):   ModuÅ‚ perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
 Version:	2.06
 Release:	1
@@ -24,10 +24,10 @@ language. This module implements the Funge-98 specifications on a 2D
 field (also called Befunge). In particular, be aware that this is not
 a Trefunge implementation (3D).
 
-%description -l pl
-Language::Befunge to interpreter jêzyka topologicznego Befunge 98. Ten
-modu³ jest implementacj± specyfikacji Funge-98 dla przestrzeni 2D
-(nazywanego tak¿e Befunge). Nie jest to implementacja Trefunge (3D).
+%description -l pl.UTF-8
+Language::Befunge to interpreter jÄ™zyka topologicznego Befunge 98. Ten
+moduÅ‚ jest implementacjÄ… specyfikacji Funge-98 dla przestrzeni 2D
+(nazywanego takÅ¼e Befunge). Nie jest to implementacja Trefunge (3D).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
