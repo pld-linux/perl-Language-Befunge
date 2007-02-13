@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	Befunge
 Summary:	Language::Befunge perl module - a Befunge 98 interpreter
-Summary(pl.UTF-8):   Moduł perla Language::Befunge - interpreter Befunge 98
+Summary(pl.UTF-8):	Moduł perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
 Version:	2.06
 Release:	1
