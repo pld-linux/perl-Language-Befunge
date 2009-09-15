@@ -56,6 +56,13 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Language/Befunge/*.pm
 %dir %{perl_vendorlib}/Language/Befunge/Wrapping
 %{perl_vendorlib}/Language/Befunge/Wrapping/LaheySpace.pm
+%dir %{perl_vendorlib}/Language/Befunge/Ops
+%{perl_vendorlib}/Language/Befunge/Ops/*.pm
+%dir %{perl_vendorlib}/Language/Befunge/Storage
+%dir %{perl_vendorlib}/Language/Befunge/Storage/2D
+%{perl_vendorlib}/Language/Befunge/Storage/2D/Sparse.pm
+%dir %{perl_vendorlib}/Language/Befunge/Storage/Generic
+%{perl_vendorlib}/Language/Befunge/Storage/Generic/*.pm
 %{_mandir}/man1/*
 %{_mandir}/man3/Language::Befunge.3pm*
 %{_mandir}/man3/Language::Befunge::[!l]*
