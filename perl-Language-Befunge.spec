@@ -4,13 +4,13 @@
 Summary:	Language::Befunge perl module - a Befunge 98 interpreter
 Summary(pl.UTF-8):	Moduł perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
-Version:	2.06
-Release:	2
+Version:	4.12
+Release:	1
 # same as perl
 License:	GPL v1+ Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	43b85ff475008ab2a80a319404d1c65b
+# Source0-md5:	c79f4663f7b81dfe532267e803642657
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -44,15 +44,12 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install Befunge/{examples,lib}/* \
-	$RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README Befunge/doc/*.{txt,html}
+%doc Changes README
 %attr(755,root,root) %{_bindir}/*
 %{perl_vendorlib}/Language/Befunge.pm
 %dir %{perl_vendorlib}/Language/Befunge
@@ -60,6 +57,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/*
 %{_mandir}/man3/Language::Befunge.3pm*
 %{_mandir}/man3/Language::Befunge::[!l]*
-%dir %{_examplesdir}/%{name}-%{version}
-%{_examplesdir}/%{name}-%{version}/*pm
-%{_examplesdir}/%{name}-%{version}/*bf
