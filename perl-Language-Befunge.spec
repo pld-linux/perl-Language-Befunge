@@ -5,7 +5,7 @@ Summary:	Language::Befunge perl module - a Befunge 98 interpreter
 Summary(pl.UTF-8):	Moduł perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
 Version:	4.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ Artistic
 Group:		Development/Languages/Perl
@@ -54,6 +54,8 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Language/Befunge.pm
 %dir %{perl_vendorlib}/Language/Befunge
 %{perl_vendorlib}/Language/Befunge/*.pm
+%dir %{perl_vendorlib}/Language/Befunge/Wrapping
+%{perl_vendorlib}/Language/Befunge/Wrapping/LaheySpace.pm
 %{_mandir}/man1/*
 %{_mandir}/man3/Language::Befunge.3pm*
 %{_mandir}/man3/Language::Befunge::[!l]*
