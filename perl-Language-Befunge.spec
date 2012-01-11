@@ -4,13 +4,13 @@
 Summary:	Language::Befunge perl module - a Befunge 98 interpreter
 Summary(pl.UTF-8):	Moduł perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
-Version:	4.12
-Release:	2
+Version:	4.13
+Release:	1
 # same as perl
 License:	GPL v1+ Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c79f4663f7b81dfe532267e803642657
+# Source0-md5:	8ee38e1a47cef764b5d498a136aa483f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
