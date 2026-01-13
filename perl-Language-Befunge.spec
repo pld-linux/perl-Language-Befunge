@@ -4,7 +4,7 @@ Summary:	Language::Befunge perl module - a Befunge 98 interpreter
 Summary(pl.UTF-8):	Moduł perla Language::Befunge - interpreter Befunge 98
 Name:		perl-Language-Befunge
 Version:	4.13
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ Artistic
 Group:		Development/Languages/Perl
